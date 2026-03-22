@@ -42,33 +42,6 @@ This project demonstrates Django best practices such as modular app structure an
 
 ---
 
-## 📂 Project Structure
-
-```
-Employee_Management
-│
-├── Employee_App
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│
-├── Employee_Auth_App
-│   ├── views.py
-│   ├── urls.py
-│
-├── Employee_Management
-│   ├── settings.py
-│   ├── urls.py
-│   ├── asgi.py
-│   ├── wsgi.py
-│
-├── templates
-│
-├── manage.py
-```
-
----
-
 ## ⚙️ Installation Guide
 
 ### 1️⃣ Clone Repository
@@ -168,23 +141,6 @@ http://127.0.0.1:8000/
 ---
 
 ## 📸 Screenshots
-
-> Add your project screenshots inside a folder named **screenshots** in the root directory.
-
-Example folder:
-
-screenshots/
-│
-├── signup.png
-├── signin.png
-├── add_employee_1.png
-├── add_employee_2.png
-├── employee_list.png
-├── update_employee_1.png
-├── update_employee_2.png
-├── delete_employee.png
-
----
 
 ### 🔐 Authentication Pages
 
