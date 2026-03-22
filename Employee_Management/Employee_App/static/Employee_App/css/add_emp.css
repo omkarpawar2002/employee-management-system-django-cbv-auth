@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white !important;
+}
+
+div>label {
+    color: white !important;
+}
+
+legend {
+    color: white;
+}
+
+.asteriskField{
+    display: none;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 25px;
+    margin: 30px;
+    background-color: #658787;
+    border-radius: 20px;
+}

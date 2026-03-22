@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Sign In</title>
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'Employee_App/css/add_emp.css' %}">
+{% endblock css %}
+
+{% block content %}
+<div class="container">
+    <h1>Sign In / Log In</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter Your Username..." class="form-control">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="********" class="form-control">
+        </div>
+        <br>
+        <div>
+            <button type="submit" class="btn btn-light col-5">Sign In</button>
+            <a href="{% url 'SignUp' %}"><button type="button" class="btn btn-light col-5 float-end">Sign
+                    Up</button></a>
+        </div>
+    </form>
+</div>
+{% endblock %}

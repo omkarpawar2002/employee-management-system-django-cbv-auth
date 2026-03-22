@@ -1,0 +1,47 @@
+ # Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment variables (important for MySQL credentials)
+.env
+
+# Django
+*.log
+local_settings.py
+
+# Database
+# (MySQL DB is external, so no db file like sqlite3)
+
+# Static files (if collectstatic used)
+staticfiles/
+
+# Media uploads
+media/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+
+# coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# migrations cache
+*/migrations/__pycache__/
+
+# node
+node_modules/
