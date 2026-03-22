@@ -2,7 +2,7 @@
 
 A web-based **Employee Management System** built using **Django Class-Based Views (CBV)** that performs full **CRUD (Create, Read, Update, Delete)** operations with secure **User Authentication** and **MySQL database integration**.
 
-This project demonstrates Django best practices such as modular app structure, reusable generic views, and authentication workflow. Ideal for beginners and intermediate developers learning Django.
+This project demonstrates Django best practices such as modular app structure and authentication workflow. Ideal for beginners and intermediate developers learning Django.
 
 ---
 
